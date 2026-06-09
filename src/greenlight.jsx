@@ -93,7 +93,7 @@ function fmtCountdown(secs) {
 function getMsg(method, amount) {
   if (method === "edible") return "Edibles build slowly — giving it full time pays off. Don't stack.";
   if (method === "concentrate") return "High potency. Longer spacing protects your tolerance and your experience.";
-  if (amount === "heavy") return "You went in. Give your system real time to reset before the next one.";
+  if (amount === "heavy") return "The full benefit is still unfolding. We'll be here when the timing is right.";
   if (amount === "light") return "Light session — your window is shorter, but still worth respecting.";
   return "A proper session. Let the effects fully land before you consider another.";
 }
